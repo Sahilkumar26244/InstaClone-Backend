@@ -108,7 +108,7 @@ router.post('/reset-password',(req,res)=>{
                     subject:"password reset",
                     html:`
                     <p>You requested for password</p>
-                    <h5>Click on this <a href='http://localhost:3000/reset/${token}' >link</a> to reset password</h5>
+                    <h5>Click on this <a href='https://instagram-clone-n5tk.onrender.com/reset/${token}' >link</a> to reset password</h5>
                     `
                 })
                 res.json({message:"check your email!"})
